@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="styles_Home_Page.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>人生の重要なイベント記録ウェブサイトへようこそ</h1>
+        <p>彼女の誕生日を忘れてしまったことにまだ悩んでいますか？</p>
+        <p>フィギュアの初回発売日を逃したことを後悔していますか？</p>
+        <p>このウェブサイトでは、さまざまな重要なイベントを見逃さないようにするための多くのリマインダー機能を提供しています。</p>
+        <p>電子メールアドレスと電話番号を提供するだけで、特定の日付に達すると</p>
+        <p>このウェブサイトはメールや電話などの方法であなたにリマインダーを送信します！</p>
+
+        <button onclick="redirectToAnotherPage()">同意</button>
+
+        <!-- 添加音乐并隐藏播放控件-->
+        <audio controls autoplay>
+            <source src="The Blue Danube.mp3" type="audio/mpeg">
+
+        </audio>
+
+
+        <script>
+            // JavaScript函数，用于在按钮点击时执行跳转
+            function redirectToAnotherPage() {
+                // 使用window.location.href进行跳转
+                window.location.href = "login.html"; // 将URL替换为您想要跳转到的页面的URL
+            }
+        </script>
+    </div>
+</body>
+
+</html>
